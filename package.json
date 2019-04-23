@@ -21,5 +21,8 @@
     "dotenv": "^7.0.0",
     "mocha": "^6.1.4",
     "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.0"
   }
 }
