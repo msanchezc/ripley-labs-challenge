@@ -1,0 +1,25 @@
+{
+  "name": "ripley-labs-challenge",
+  "version": "1.0.0",
+  "description": "Ripley Labs First Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msanchezc/ripley-labs-challenge.git"
+  },
+  "author": "msanchezc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msanchezc/ripley-labs-challenge/issues"
+  },
+  "homepage": "https://github.com/msanchezc/ripley-labs-challenge#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^7.0.0",
+    "mocha": "^6.1.4",
+    "standard": "^12.0.1"
+  }
+}
