@@ -3,7 +3,7 @@
 ## Overview
 This application is continuously polling the [Dark Sky API](https://darksky.net/dev) to send current weather conditions to connected clients via WebSockets.
 
-## Installation
+## Installation
 After cloning the repo, you must install the project's dependencies as usual in a Node.js application by navigating to its root folder and issuing the following command in a terminal:
 
 `$ npm install`
