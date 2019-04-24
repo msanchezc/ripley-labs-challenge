@@ -4,6 +4,8 @@
   "description": "Ripley Labs First Challenge",
   "main": "app.js",
   "scripts": {
+    "start": "NODE_ENV=production node src/app.js",
+    "dev": "NODE_ENV=development node -r dotenv/config src/app.js",
     "test": "NODE_ENV=test mocha -r dotenv/config -t 5000 src/**/*.spec.js"
   },
   "repository": {
