@@ -18,6 +18,7 @@ async function getUpdate () {
   Object.keys(weather).forEach(city => {
     let data = JSON.parse(weather[city])
     weather[city] = {
+      city,
       timezone: data.timezone,
       latitude: data.latitude,
       longitude: data.longitude,
